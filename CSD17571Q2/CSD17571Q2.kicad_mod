@@ -1,0 +1,211 @@
+(footprint "CSD17571Q2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.8 -2.05 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7952673d-4506-4622-91bb-01e2172f0f88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CSD17571Q2"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "63608b7c-2663-4e61-ac36-4e25b8385803")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C962382.pdf?lcsc_vid=Q1JZU11RFQVYBlNfQVcMVVJQQwRZAwYFT1cPUgUDFQIxVlNeQFFXX1BUQFFXUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e224a21e-2f54-44cf-85b5-82c22d116ab4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "N-Channel 30 V, 20 mΩ, SON 2×2 NexFET™ power TA = 25°C VALUE UNIT MOSFET i"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67e85d3f-6924-425a-a0f6-989f55bbdd4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.1 1.25)
+		(end 1.1 1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dd0b435b-8045-429a-9c10-933021960984")
+	)
+	(fp_line
+		(start 1.1 -1.25)
+		(end -1.1 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3fc44b6b-9108-4d86-aeab-5a453f542bfb")
+	)
+	(fp_circle
+		(center -0.975 -0.9)
+		(end -0.895 -0.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e8cebd4c-667c-41a3-9136-a0d6e7f513e9")
+	)
+	(fp_line
+		(start -1.25 -1.4)
+		(end 1.25 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b445c0f7-d364-417b-8e9c-102bc6fcb05d")
+	)
+	(fp_line
+		(start -1.25 1.4)
+		(end -1.25 -1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3db96eb5-861a-4e2b-9b58-a2dc40d28023")
+	)
+	(fp_line
+		(start 1.25 -1.4)
+		(end 1.25 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fed6db75-1a77-4777-8847-d93d4991af4e")
+	)
+	(fp_line
+		(start 1.25 1.4)
+		(end -1.25 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bec4c8b5-9fb8-4817-a25f-45f8d304917f")
+	)
+	(fp_poly
+		(pts
+			(xy -0.35 -1.15) (xy 1 -1.15) (xy 1 1.15) (xy -1 1.15) (xy -1 -0.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c57caad3-1bba-4457-8020-069a30740659")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0.05 0)
+		(layer "F.Fab")
+		(uuid "6afa6238-0408-46d4-87bc-d6553aa8eaba")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "D" smd roundrect
+		(at -0.65 -0.9225)
+		(size 0.4 0.455)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "91d89ee1-c1bc-4817-9c89-a671a50f5875")
+	)
+	(pad "D" smd roundrect
+		(at -0.65 0.9225)
+		(size 0.4 0.455)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "ea67c82c-4149-405f-ab16-decadb0014eb")
+	)
+	(pad "D" smd rect
+		(at -0.325 0)
+		(size 1.05 1.1)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "85539f78-47ea-4c1b-990e-7c16fe466ef5")
+	)
+	(pad "D" smd roundrect
+		(at 0 -0.9225)
+		(size 0.4 0.455)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0399c995-7ab7-4ce5-b7f6-c0cfc89d5a41")
+	)
+	(pad "D" smd roundrect
+		(at 0 0.9225)
+		(size 0.4 0.455)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0f365d20-1d6b-4f54-a13c-c87cb0849721")
+	)
+	(pad "G" smd roundrect
+		(at 0.65 0.9225)
+		(size 0.4 0.455)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8186c12f-bb19-4e0f-984b-a757934eae0c")
+	)
+	(pad "S" smd roundrect
+		(at 0.65 -0.9225)
+		(size 0.4 0.455)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "a3f14d26-4bd4-4aa5-a795-d45c25e0ef4b")
+	)
+	(pad "S" smd rect
+		(at 0.65 -0.1)
+		(size 0.4 0.85)
+		(property pad_prop_heatsink)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(uuid "4c43a34c-c3f0-4f14-bc2c-31e2e53ee59a")
+	)
+	(embedded_fonts no)
+)

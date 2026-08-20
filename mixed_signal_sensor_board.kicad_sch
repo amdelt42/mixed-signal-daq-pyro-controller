@@ -11520,7 +11520,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S6B-XH-A_1x06_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal"
 			(at 309.88 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14223,7 +14223,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-SM4-TB_1x04-1MP_P2.00mm_Horizontal"
 			(at 123.19 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -15901,7 +15901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
 			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
