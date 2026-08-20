@@ -1,6 +1,4 @@
 (fp_lib_table
 	(version 7)
-	(lib (name "MagI3C_171013201") (type "KiCad") (uri "${KIPRJMOD}/MagI3C_171013201") (options "") (descr ""))
-	(lib (name "SG-8018CE_8.9152M-TJHSA0") (type "KiCad") (uri "${KIPRJMOD}/SG-8018CE_8.9152M-TJHSA0") (options "") (descr ""))
-	(lib (name "TCAN3414DRBR") (type "KiCad") (uri "${KIPRJMOD}/TCAN3414DRBR") (options "") (descr ""))
+	(lib (name "Oscillator_custom") (type "KiCad") (uri "${KIPRJMOD}/Oscillator_custom.pretty") (options "") (descr ""))
 )

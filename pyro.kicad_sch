@@ -1024,21 +1024,76 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 156.21 78.74)
+		(end 229.87 107.95)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "42b5dfc9-ac53-43c7-9d4e-9cfcbe3090f3")
+	)
+	(text "Voltage, Current through the divider (PYRO continuity good, MOSFET off):\n\nV_{PYRO_FAULT} = 24V x R_{2} / (R_{1} + R_{2}) = 3.0V\n\nR_{2} / (R_{1} + R_{2}) = 0.125\n\nI_{R1,R2} = 24V / (R_{1} + R_{2}) = 24V / 80kΩ = 300 µA\n\nPower in R_{1}, R_{2}:\n\nP_{R_{1}} = I_{R1,R2}^{2} × R_{1} = (300µA)^2 × 70,000Ω = 6.3 mW\n\nP_{R_{2}} = I_{R1,R2}^{2} × R_{2} = (300µA)^2 × 10,000Ω = 0.9 mW"
+		(exclude_from_sim no)
+		(at 192.786 93.726 0)
+		(effects
+			(font
+				(face "KiCad Font")
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5c4e723-78da-47f7-a9c6-e8cc62de5b4e")
+	)
 	(junction
-		(at 139.7 100.33)
+		(at 135.89 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6eb69166-9c8d-48fc-8842-91497f718ce1")
+	)
+	(junction
+		(at 113.03 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "944695e6-8ed9-4b85-8cc3-5337dde4215a")
 	)
 	(junction
-		(at 149.86 107.95)
+		(at 123.19 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af810c1d-f91a-48e2-bcbb-e062d3bf3b20")
+	)
+	(junction
+		(at 123.19 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf95536a-1671-4120-a2d6-14afb220e52c")
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 149.86 107.95)
+			(xy 125.73 91.44) (xy 123.19 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a912090-7497-4055-9bab-1e2170c88d68")
+	)
+	(wire
+		(pts
+			(xy 135.89 88.9) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49ed6995-eb38-4cc0-aff0-6aaf18ecfe05")
+	)
+	(wire
+		(pts
+			(xy 123.19 104.14) (xy 123.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +1103,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 95.25) (xy 149.86 92.71)
+			(xy 123.19 93.98) (xy 123.19 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 100.33) (xy 142.24 100.33)
+			(xy 113.03 99.06) (xy 115.57 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1068,7 +1123,27 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 87.63) (xy 149.86 90.17)
+			(xy 133.35 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "895f05ee-961a-4a33-80a8-4f871948d856")
+	)
+	(wire
+		(pts
+			(xy 123.19 91.44) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4332af5-4418-4636-94f8-3a6370b95edf")
+	)
+	(wire
+		(pts
+			(xy 123.19 83.82) (xy 123.19 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1153,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 107.95) (xy 149.86 107.95)
+			(xy 113.03 106.68) (xy 123.19 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1163,17 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 100.33) (xy 139.7 100.33)
+			(xy 135.89 91.44) (xy 138.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e30695f0-79ea-4626-ba80-3317242d0ce7")
+	)
+	(wire
+		(pts
+			(xy 110.49 99.06) (xy 113.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1096,9 +1181,9 @@
 		)
 		(uuid "e5e266a4-8b68-4a94-b521-56fa0f875077")
 	)
-	(hierarchical_label "PYRO"
+	(hierarchical_label "PYRO_SIGNAL"
 		(shape input)
-		(at 137.16 100.33 180)
+		(at 110.49 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1107,9 +1192,20 @@
 		)
 		(uuid "c1a73b7f-e4e7-45b1-8e52-2a19297a761d")
 	)
+	(hierarchical_label "PYRO_FAULT"
+		(shape output)
+		(at 138.43 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d4a4b1f4-1822-4b8c-bf13-725d2ef2e9e8")
+	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 149.86 80.01 0)
+		(at 123.19 76.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1119,8 +1215,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03854fbf-1199-4ff0-8dd4-88115b05416a")
-		(property "Reference" "#PWR0101"
-			(at 149.86 83.82 0)
+		(property "Reference" "#PWR0107"
+			(at 123.19 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1131,7 +1227,7 @@
 			)
 		)
 		(property "Value" "+24V"
-			(at 149.86 74.93 0)
+			(at 123.19 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1141,7 +1237,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 80.01 0)
+			(at 123.19 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1152,7 +1248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 80.01 0)
+			(at 123.19 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1163,7 +1259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 149.86 80.01 0)
+			(at 123.19 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1174,210 +1270,24 @@
 			)
 		)
 		(pin "1"
-			(uuid "72951dbf-aebc-40f8-9ca6-159c02ea5440")
+			(uuid "99ceb575-7d76-4380-ab0b-2b2388a875c2")
 		)
 		(instances
 			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/04c3347a-9435-4eea-850a-de2a4c8a6a73"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/48a310cb-409c-4148-ae1b-00cd08cd2a4a"
-					(reference "#PWR0103")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "#PWR0116")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "#PWR0101")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/6a049ff2-bfa0-4b80-a72b-6f13479a6926"
 					(reference "#PWR0107")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 139.7 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74c3b6c2-06a3-4433-8a55-aee15a1fb286")
-		(property "Reference" "R51"
-			(at 135.636 103.124 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 135.382 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 141.478 104.14 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 139.7 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ff63d02-551b-4ebe-a751-0f05ada08510")
-		)
-		(pin "1"
-			(uuid "07b9e0a5-e5f0-4ee7-9768-44621b14ddb0")
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/04c3347a-9435-4eea-850a-de2a4c8a6a73"
-					(reference "R53")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "#PWR0110")
 					(unit 1)
 				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/48a310cb-409c-4148-ae1b-00cd08cd2a4a"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "R51")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/6a049ff2-bfa0-4b80-a72b-6f13479a6926"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 149.86 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abc30024-fb4a-4689-9d65-3094c25bdad0")
-		(property "Reference" "F1"
-			(at 152.4 82.5499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 152.4 85.0899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 149.86 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba74ee4f-819f-41fa-9497-8765de02aa4a")
-		)
-		(pin "2"
-			(uuid "9e655fb8-8292-454d-a156-061ebf937e47")
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/04c3347a-9435-4eea-850a-de2a4c8a6a73"
-					(reference "F3")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/48a310cb-409c-4148-ae1b-00cd08cd2a4a"
-					(reference "F2")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "F1")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/6a049ff2-bfa0-4b80-a72b-6f13479a6926"
-					(reference "F4")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -1385,7 +1295,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 149.86 107.95 0)
+		(at 135.89 81.28 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1394,9 +1304,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bb6facf2-75ec-410b-b8f7-f991e8981573")
-		(property "Reference" "#PWR0102"
-			(at 149.86 114.3 0)
+		(uuid "54109324-3243-491e-baa9-f2fdf7501ddd")
+		(property "Reference" "#PWR0109"
+			(at 135.89 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1407,7 +1317,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 149.86 113.03 0)
+			(at 135.89 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1417,7 +1327,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 107.95 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1428,7 +1338,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 149.86 107.95 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1439,7 +1349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 107.95 0)
+			(at 135.89 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1450,24 +1360,483 @@
 			)
 		)
 		(pin "1"
-			(uuid "63c23999-31ad-4b06-8047-51552999e2a3")
+			(uuid "6d9ecb33-6a43-45b9-a23d-6bc3542ddf0c")
 		)
 		(instances
 			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/04c3347a-9435-4eea-850a-de2a4c8a6a73"
-					(reference "#PWR0106")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/48a310cb-409c-4148-ae1b-00cd08cd2a4a"
-					(reference "#PWR0104")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "#PWR0118")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "#PWR0102")
+					(reference "#PWR0109")
 					(unit 1)
 				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/6a049ff2-bfa0-4b80-a72b-6f13479a6926"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "#PWR0112")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 102.87 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74c3b6c2-06a3-4433-8a55-aee15a1fb286")
+		(property "Reference" "R51"
+			(at 108.966 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 108.712 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 114.808 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "daec3399-db32-47f6-9b0a-a9d72dcfc8b8")
+		)
+		(pin "1"
+			(uuid "f89a1d96-7005-4b71-ab38-dfecbae711ce")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "R54")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 85.09 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7b2d39b5-b829-4701-8864-5193920d1fe3")
+		(property "Reference" "R53"
+			(at 139.954 84.074 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 140.208 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 134.112 85.09 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75d8753b-f341-4d55-92ea-9f75e0fe3128")
+		)
+		(pin "1"
+			(uuid "4d474d9c-0217-445c-8f0a-9a736fa99515")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "R62")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "R53")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "R56")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91a13818-2720-48e9-8a6a-a04ce9b589ac")
+		(property "Reference" "R52"
+			(at 129.54 86.614 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "70K"
+			(at 129.286 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 129.54 89.662 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 129.54 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e65b8313-2f2e-4c30-8919-5d6165b69505")
+		)
+		(pin "1"
+			(uuid "6743b342-3e1e-474e-8e5e-3379c821bd07")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "R52")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "R55")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 123.19 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abc30024-fb4a-4689-9d65-3094c25bdad0")
+		(property "Reference" "F1"
+			(at 125.73 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Polyfuse"
+			(at 125.73 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_2920_7451Metric"
+			(at 124.46 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 123.19 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2121f21a-a422-4e82-abbf-9d43f13b3da2")
+		)
+		(pin "2"
+			(uuid "2effef39-854e-4a87-85ed-75cb21a924b4")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "F4")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "F1")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "F2")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 123.19 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb6facf2-75ec-410b-b8f7-f991e8981573")
+		(property "Reference" "#PWR0108"
+			(at 123.19 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 123.19 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 123.19 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a8876b0-afe4-4d59-bb6f-cc868cc41400")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -1475,7 +1844,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 147.32 100.33 0)
+		(at 120.65 99.06 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1486,7 +1855,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea1f8ceb-18c1-4bfb-954f-d5f06d2ebb1c")
 		(property "Reference" "Q1"
-			(at 153.67 99.0599 0)
+			(at 127 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1497,7 +1866,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GDS"
-			(at 153.67 101.5999 0)
+			(at 127 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1507,8 +1876,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 152.4 97.79 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 125.73 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1519,7 +1888,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 100.33 0)
+			(at 120.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1530,7 +1899,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 147.32 100.33 0)
+			(at 120.65 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1541,30 +1910,30 @@
 			)
 		)
 		(pin "3"
-			(uuid "a81eed78-8cab-4c1e-adb0-a6edbfee358c")
+			(uuid "22ae0a5c-a53c-4a3e-ba0d-0d654412c7e3")
 		)
 		(pin "1"
-			(uuid "ffaeb78c-cfa7-4fd7-99ea-32326aa4d58f")
+			(uuid "eb00f2af-f716-44c9-a331-84df21d669f7")
 		)
 		(pin "2"
-			(uuid "62155055-18d2-4214-82fb-b1d9d7869657")
+			(uuid "b776ec88-4e88-4e23-a454-fc76b2743b90")
 		)
 		(instances
 			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/04c3347a-9435-4eea-850a-de2a4c8a6a73"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/48a310cb-409c-4148-ae1b-00cd08cd2a4a"
-					(reference "Q2")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
 					(reference "Q1")
 					(unit 1)
 				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/6a049ff2-bfa0-4b80-a72b-6f13479a6926"
-					(reference "Q4")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1572,7 +1941,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 144.78 90.17 0)
+		(at 118.11 86.36 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -1583,7 +1952,7 @@
 		(dnp no)
 		(uuid "ed45fa54-7325-49c7-ad24-f18108262753")
 		(property "Reference" "J14"
-			(at 140.208 90.17 0)
+			(at 113.538 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1593,7 +1962,7 @@
 			)
 		)
 		(property "Value" "PYRO"
-			(at 140.208 92.71 0)
+			(at 113.538 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1602,8 +1971,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
-			(at 144.78 90.17 0)
+		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1614,7 +1983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 90.17 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1625,7 +1994,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 144.78 90.17 0)
+			(at 118.11 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1636,27 +2005,27 @@
 			)
 		)
 		(pin "2"
-			(uuid "88b2944c-6302-42e4-b852-9940cc8bdb6d")
+			(uuid "d9b23e17-803e-413e-9acc-e20dd6a7eadc")
 		)
 		(pin "1"
-			(uuid "d5c105a9-c9be-4083-98fe-1ff088132886")
+			(uuid "960b7fd6-262e-40c4-a341-d607f370d5f0")
 		)
 		(instances
 			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/04c3347a-9435-4eea-850a-de2a4c8a6a73"
-					(reference "J16")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/48a310cb-409c-4148-ae1b-00cd08cd2a4a"
-					(reference "J15")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "J17")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
 					(reference "J14")
 					(unit 1)
 				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/6a049ff2-bfa0-4b80-a72b-6f13479a6926"
-					(reference "J17")
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "J15")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "J16")
 					(unit 1)
 				)
 			)
