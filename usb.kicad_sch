@@ -1761,7 +1761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b02db3-d933-42e6-b0b5-c30411e53a37")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0104"
 			(at 130.81 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -1821,7 +1821,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "#PWR099")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -1839,7 +1839,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4140347b-bcf3-4ee1-b112-3c85b1ca8508")
-		(property "Reference" "J12"
+		(property "Reference" "J13"
 			(at 138.43 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1968,7 +1968,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "J12")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -1985,7 +1985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "65479e6f-7d4e-466b-a0cf-f0534eb49838")
-		(property "Reference" "R48"
+		(property "Reference" "R49"
 			(at 170.18 85.852 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2069,7 +2069,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R48")
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -2086,7 +2086,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "69119e5a-b9c8-4ec3-8726-ebc809450fdb")
-		(property "Reference" "R49"
+		(property "Reference" "R50"
 			(at 170.18 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2170,7 +2170,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R49")
+					(reference "R50")
 					(unit 1)
 				)
 			)
@@ -2187,7 +2187,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eef7fbc-5378-4722-95d7-c3c87d7e3d4f")
-		(property "Reference" "R46"
+		(property "Reference" "R47"
 			(at 152.908 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2271,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R46")
+					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -2289,7 +2289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf3d5f4-4c8f-40c6-970c-a7c644905779")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0105"
 			(at 161.29 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -2349,7 +2349,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "#PWR0100")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2464,7 +2464,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3cc7b6c-d739-4870-8827-1e1d86ec4bd4")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0106"
 			(at 184.15 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -2524,7 +2524,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "#PWR0101")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2541,7 +2541,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c51195eb-a572-47fb-a3af-69fc3a845f44")
-		(property "Reference" "R47"
+		(property "Reference" "R48"
 			(at 160.528 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2625,7 +2625,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R47")
+					(reference "R48")
 					(unit 1)
 				)
 			)

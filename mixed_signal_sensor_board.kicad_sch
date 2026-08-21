@@ -2471,310 +2471,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Q_PMOS"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_PMOS"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "P-MOSFET transistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PMOS P-MOS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_PMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 -0.381) (xy 3.683 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_PMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -6280,6 +5976,307 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_FET:Q_PMOS_GSD"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_GSD"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, gate/source/drain"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_0_1"
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.921 -0.381) (xy 3.683 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_PMOS_GSD_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+24V"
 			(power global)
 			(pin_numbers
@@ -7087,12 +7084,6 @@
 		(uuid "7491208a-e91a-4dc8-bdea-fde12c39643c")
 	)
 	(junction
-		(at 60.96 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75e2f6bf-46ca-4049-b808-a942ab612c31")
-	)
-	(junction
 		(at 40.64 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7115,6 +7106,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "925e3943-4251-4642-a99a-bd597ff58503")
+	)
+	(junction
+		(at 60.96 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "95806a68-4f36-49e8-92f4-6da4e948af9a")
 	)
 	(junction
 		(at 171.45 62.23)
@@ -7159,6 +7156,12 @@
 		(uuid "ac039afb-45e2-46a0-9522-6f0eef11be3d")
 	)
 	(junction
+		(at 66.04 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acd939a7-fcb8-488e-9ae3-905584a78cfb")
+	)
+	(junction
 		(at 255.27 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7187,12 +7190,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "befd1f88-a21f-4b76-8ec5-fbc85974401e")
-	)
-	(junction
-		(at 66.04 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c17ac37c-60e1-4501-8410-cfdbf79724ff")
 	)
 	(junction
 		(at 171.45 104.14)
@@ -7293,6 +7290,16 @@
 			(type default)
 		)
 		(uuid "000f5d88-e6ee-4fe8-a66f-9a823d71cfef")
+	)
+	(wire
+		(pts
+			(xy 236.22 90.17) (xy 238.76 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01a153be-a1df-422c-9ae3-af070158a92b")
 	)
 	(wire
 		(pts
@@ -7486,6 +7493,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 77.47) (xy 238.76 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16671633-349f-457c-943f-465fef1edfa6")
+	)
+	(wire
+		(pts
 			(xy 251.46 52.07) (xy 250.19 52.07)
 		)
 		(stroke
@@ -7626,13 +7643,13 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 97.79) (xy 238.76 97.79)
+			(xy 236.22 85.09) (xy 238.76 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22237905-8ec7-4df3-88ad-02a4511e76c5")
+		(uuid "2132c69e-925b-4fe4-8483-893beab9364d")
 	)
 	(wire
 		(pts
@@ -7706,16 +7723,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 92.71) (xy 238.76 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a9c7cc0-90d8-4ad0-9567-1a5d2275c303")
-	)
-	(wire
-		(pts
 			(xy 124.46 227.33) (xy 127 227.33)
 		)
 		(stroke
@@ -7752,7 +7759,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2fa7e71c-43b2-432c-b7ef-811f8f69c2fa")
+		(uuid "2d7a3b08-f64e-4136-987e-2b7dcf7de1cb")
 	)
 	(wire
 		(pts
@@ -7783,16 +7790,6 @@
 			(type default)
 		)
 		(uuid "321b9fde-621d-4773-8b26-3a73d10d5e50")
-	)
-	(wire
-		(pts
-			(xy 236.22 77.47) (xy 238.76 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32634c9f-d484-4e7c-b849-a09b65d56bfc")
 	)
 	(wire
 		(pts
@@ -7836,16 +7833,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 100.33) (xy 238.76 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "475c3e9d-eaf4-4904-a4a1-0ad002081ec9")
-	)
-	(wire
-		(pts
 			(xy 190.5 182.88) (xy 190.5 187.96)
 		)
 		(stroke
@@ -7886,6 +7873,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 82.55) (xy 238.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4880f0bf-9eb2-43b4-983e-0471ff3e97c7")
+	)
+	(wire
+		(pts
 			(xy 95.25 154.94) (xy 92.71 154.94)
 		)
 		(stroke
@@ -7903,16 +7900,6 @@
 			(type default)
 		)
 		(uuid "492749b2-48d3-43c1-96df-bf2a6d0133f6")
-	)
-	(wire
-		(pts
-			(xy 236.22 82.55) (xy 238.76 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "495b5da1-5cac-448c-8c44-f17ecdcc8da6")
 	)
 	(wire
 		(pts
@@ -8103,6 +8090,16 @@
 			(type default)
 		)
 		(uuid "5ae30170-c20e-412f-bc6c-0531e69e6482")
+	)
+	(wire
+		(pts
+			(xy 236.22 100.33) (xy 238.76 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c7ce1e9-14ee-4eba-8407-afaa65635ce7")
 	)
 	(wire
 		(pts
@@ -8446,16 +8443,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 90.17) (xy 238.76 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87d0cffa-6539-4022-9b3e-3a37de5d1eb8")
-	)
-	(wire
-		(pts
 			(xy 387.35 234.95) (xy 389.89 234.95)
 		)
 		(stroke
@@ -8553,16 +8540,6 @@
 			(type default)
 		)
 		(uuid "95b0e3a8-ee66-406f-9658-a2d325647ee1")
-	)
-	(wire
-		(pts
-			(xy 236.22 85.09) (xy 238.76 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9892e35e-c97a-4cf8-8510-f9e1abf3a909")
 	)
 	(wire
 		(pts
@@ -8826,6 +8803,16 @@
 	)
 	(wire
 		(pts
+			(xy 236.22 92.71) (xy 238.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b30c7953-17d5-49f7-88f2-22b3f09d5920")
+	)
+	(wire
+		(pts
 			(xy 171.45 64.77) (xy 173.99 64.77)
 		)
 		(stroke
@@ -9043,6 +9030,16 @@
 			(type default)
 		)
 		(uuid "ce99168d-2313-4b8d-bd4f-d4429cf06560")
+	)
+	(wire
+		(pts
+			(xy 236.22 97.79) (xy 238.76 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceceb1a7-094c-499a-ba75-0ab57819a071")
 	)
 	(wire
 		(pts
@@ -10327,7 +10324,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 91.7448 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10387,7 +10384,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04dff21f-24f0-427a-add5-8db583132408")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 104.14 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -10448,7 +10445,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -10466,7 +10463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0510db62-2d66-4dc9-aa00-2f455256a334")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 269.24 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10527,7 +10524,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -10545,7 +10542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08f496d7-2c5d-4da0-89b3-1a49889020e1")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 189.23 243.8399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10631,7 +10628,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -10671,7 +10668,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 58.1152 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -10731,7 +10728,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a4e4946-632d-45af-a9c9-abd1d9d13d15")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 127 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -10791,7 +10788,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -10999,7 +10996,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "13f27878-b1bf-4fd7-94f7-c5dcd958ff39")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 186.69 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -11059,7 +11056,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11557,7 +11554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19f38fbf-2739-4d02-b36f-6e421aefd868")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 172.72 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -11617,7 +11614,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -11635,7 +11632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a05a1d5-5b27-42ea-8812-0732c539b262")
-		(property "Reference" "R7"
+		(property "Reference" "R8"
 			(at 127 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11721,7 +11718,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R7")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -11819,7 +11816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e95bc3c-fa96-4170-8f54-f7d44b603465")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR09"
 			(at 67.31 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -11880,7 +11877,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR03")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11898,7 +11895,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fdfc3c8-d2bc-48eb-b630-2b6065a617f3")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR03"
 			(at 48.26 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -11958,7 +11955,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR0126")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -11975,7 +11972,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fea142d-f2f8-486c-910b-ebbf84649485")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 58.928 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11986,7 +11983,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "30V"
 			(at 58.928 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12039,7 +12036,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12057,7 +12054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20d7f0b1-58ce-4857-80bb-58f8c4fdb413")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 214.63 185.7374 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12154,7 +12151,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -12273,7 +12270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26715381-c492-4d8e-a16a-406d31d00a63")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 102.87 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12337,7 +12334,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -12355,7 +12352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27b1414b-aace-4da6-8a6e-0fe222e708ee")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR021"
 			(at 127 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -12415,7 +12412,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR020")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -12514,7 +12511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29292698-d3e2-478d-bde9-8fd3ee1b27f7")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR060"
 			(at 341.63 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -12575,7 +12572,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR055")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -12796,7 +12793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3056a822-fd65-4da8-a272-ff3b57b8adc9")
-		(property "Reference" "J18"
+		(property "Reference" "J4"
 			(at 320.04 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12888,7 +12885,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "J18")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -12907,7 +12904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36dd8094-024c-4e07-bf4f-4a9090dc8292")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 289.56 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -12968,7 +12965,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13172,7 +13169,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d5b74c0-1ea6-4e02-a5a8-0616c6935ffa")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 241.3 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -13233,7 +13230,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13250,7 +13247,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3f937194-1d27-473c-902e-c09fdc691770")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 255.27 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -13310,7 +13307,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13409,7 +13406,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42d6f795-10f9-46f2-9c5c-adea614bb687")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 213.36 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13495,7 +13492,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -13693,7 +13690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48b53328-8a4a-455c-af41-521100ae02de")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR010"
 			(at 72.39 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -13753,7 +13750,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR09")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -13792,7 +13789,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 104.4448 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -14220,7 +14217,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5249cac9-bda8-4396-b5f2-aaad610c278c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 100.33 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -14280,7 +14277,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -14298,7 +14295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "558660fa-8195-43d6-b632-36d917a83687")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 190.5 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -14358,7 +14355,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -14376,7 +14373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "57f1cf39-1ac6-4965-beb5-7b2f7a7a72fa")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 190.5 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -14437,7 +14434,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14455,7 +14452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a3a1ae-f311-47e3-bee4-26ebbd4edc4a")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 181.61 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -14515,7 +14512,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -14532,7 +14529,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "594a67d6-94cb-4cc1-b016-d1bf3fb75cf2")
-		(property "Reference" "R63"
+		(property "Reference" "R2"
 			(at 67.818 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14618,7 +14615,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R63")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14637,7 +14634,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "599b432b-34aa-4368-a094-5ce39e4739d1")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 63.5 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -14697,7 +14694,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -14715,7 +14712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab6f916-562b-49da-8a87-38e363e1b1ed")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 181.61 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -14775,7 +14772,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14896,7 +14893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bc1a1b4-694f-419a-b6db-0f1ab5cb1f3f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 80.01 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -14957,7 +14954,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -14976,7 +14973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5c011d73-9e76-40c0-876b-d18a270e4b76")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR07"
 			(at 66.04 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -15036,7 +15033,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR04")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15054,7 +15051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d4b6347-ac64-447d-b62b-71cd0e465ea3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 100.33 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -15114,7 +15111,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -15132,7 +15129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "642549e7-a22f-465b-8620-bb573df9e9e6")
-		(property "Reference" "R9"
+		(property "Reference" "R10"
 			(at 129.54 229.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15196,7 +15193,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R9")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15214,7 +15211,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68321256-f805-42e0-8c5a-c211b1fa6eb1")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR061"
 			(at 374.65 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -15275,90 +15272,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PMOS")
-		(at 66.04 41.91 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6903ae9e-138e-419a-8f92-75742e23474c")
-		(property "Reference" "Q5"
-			(at 66.04 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Q_PMOS"
-			(at 66.04 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 63.5 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "P-MOSFET transistor"
-			(at 66.04 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "b474a113-a7ca-4e0a-80f1-4f0234091125")
-		)
-		(pin "G"
-			(uuid "b2e28a3d-031c-474f-8aef-e715fbcff274")
-		)
-		(pin "D"
-			(uuid "56a50d3d-326c-449b-9b85-20cf71fcd68a")
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "Q5")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -15377,7 +15291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69ee5c92-4ccf-468f-ba43-9f7c2769b328")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR041"
 			(at 241.3 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15438,7 +15352,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR040")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -15537,7 +15451,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eb5c3c3-caa3-4b35-b611-eeebe88e17d0")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 269.24 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15598,7 +15512,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -15616,7 +15530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f35372-e4b9-427c-a119-b3b57d6c68c9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR059"
 			(at 332.74 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -15677,7 +15591,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR0124")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -15695,7 +15609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78253a59-f113-4835-9cc6-776569073cc7")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 182.88 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -15755,7 +15669,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -15773,7 +15687,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79c0cc3b-e254-44cc-b65e-1f98e6380396")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR042"
 			(at 250.19 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -15833,7 +15747,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR041")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -15851,7 +15765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a9af7ac-12e5-4bbf-b49e-33f8a0c5c15c")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR036"
 			(at 210.82 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -15911,7 +15825,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR035")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -15929,7 +15843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e2428c0-3a72-4931-b844-5924689a73ce")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 127 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16015,7 +15929,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -16120,7 +16034,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ee469ed-c7ba-4010-811c-79ac95a29b6f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 134.62 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -16181,7 +16095,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -16199,7 +16113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "810dad69-ce69-4f47-a842-8a9eabeef9be")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 124.46 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -16260,7 +16174,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -16382,7 +16296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b123ed4-dd82-4dfa-a346-8d8480b1241e")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 185.42 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16478,7 +16392,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -16496,7 +16410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce9a726-f880-425d-a6c0-c36b49aa01c4")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR037"
 			(at 210.82 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -16556,7 +16470,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR036")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -16574,7 +16488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e62a4b2-4f47-48af-abef-70c549942475")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 180.34 241.3 0)
 			(hide yes)
 			(show_name no)
@@ -16635,7 +16549,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16652,7 +16566,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ede312f-a499-4786-89f5-97d5b79f6f1e")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 99.06 146.812 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16714,7 +16628,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -16732,7 +16646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f3bc860-3132-43e2-bd98-3a5ee9fdd15b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR062"
 			(at 370.84 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -16792,7 +16706,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR057")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -16890,7 +16804,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f72e194-2048-444f-82b7-6d173edc16e6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 275.59 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -16951,7 +16865,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -16991,7 +16905,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 44.1452 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17051,7 +16965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "971b37f7-c4a7-4f62-b895-4a25a35e2168")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 102.87 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17115,7 +17029,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -17133,7 +17047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97a6d558-a121-4c3b-b89c-3a80be4f62e0")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 124.46 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -17193,7 +17107,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -17211,7 +17125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "993872f6-f61b-41c2-8399-ff7f643e3038")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR035"
 			(at 190.5 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -17272,7 +17186,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17371,7 +17285,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b76ce10-2475-406b-b48a-aa3c404886e3")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR058"
 			(at 322.58 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -17431,7 +17345,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR0121")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -17449,7 +17363,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e259769-9ed6-4af0-bbe9-88589caff28d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 124.46 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -17509,7 +17423,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -17526,7 +17440,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a11d74f0-7aca-4921-9dd8-23425fefb78e")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR054"
 			(at 317.5 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -17586,7 +17500,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR0120")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -17604,7 +17518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b206a9-0c71-4a11-b529-a8d7e2a9a54e")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 78.74 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -17665,7 +17579,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -17682,7 +17596,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ad1ac750-cb8a-49ee-9238-929a02520c97")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 175.26 179.324 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17766,7 +17680,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -17866,7 +17780,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0653e5e-7996-4175-ac24-443dcf87384e")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR055"
 			(at 307.34 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -17927,7 +17841,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR0122")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -18025,7 +17939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0de38e4-2f3d-460b-a0e1-bf65ffaf1e9e")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 269.24 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -18086,7 +18000,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -18642,7 +18556,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8245410-defa-4052-9e53-a16ecee0222c")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 289.56 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -18703,7 +18617,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18721,7 +18635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae43d11-6328-4aa2-bca1-ac373cfa611c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 255.27 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -18781,7 +18695,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18799,7 +18713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc5d653-e229-45ae-a74a-52fe8d88376d")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 182.88 228.6 0)
 			(hide yes)
 			(show_name no)
@@ -18859,7 +18773,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -19061,7 +18975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2fadcde-2cf7-40d2-8a04-0038728a3acb")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR039"
 			(at 241.3 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -19122,7 +19036,90 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR038")
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 66.04 41.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5071fa8-1b00-4a12-a1cc-52c2ead631ad")
+		(property "Reference" "Q1"
+			(at 66.04 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRLML5103TRPBF"
+			(at 66.04 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 63.5 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C28646353.pdf?lcsc_vid=Q1JZU11RFQVYBlNfQVcMVVJQQwRZAwYFT1cPUgUDFQIxVlNeQFFXX1BUQFFXUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 66.04 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(at 66.04 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e2d7d4e3-6afd-4761-87f8-5ff4f00c12e2")
+		)
+		(pin "1"
+			(uuid "ca63c71f-d28f-49db-81d2-2aac9e190e4c")
+		)
+		(pin "3"
+			(uuid "e29c0ef1-129e-4cf5-9835-cac34ab5d114")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -19221,7 +19218,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceab667f-1073-4eaf-a2bb-5c0396b901c7")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR056"
 			(at 311.15 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -19282,7 +19279,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR053")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -19300,7 +19297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1c2847c-5162-4c0a-996a-a5218a847696")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR04"
 			(at 50.8 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -19360,7 +19357,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR05")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -19536,7 +19533,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d64c696d-88b6-4633-a481-4eef5e8bca4a")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 172.72 220.98 0)
 			(hide yes)
 			(show_name no)
@@ -19596,7 +19593,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19614,7 +19611,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d733f018-dbff-4013-9e5b-1c05ad7c07c6")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 99.06 160.528 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19676,7 +19673,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -19694,7 +19691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d73837e9-b2aa-4a68-9edb-e73ac4fb60cd")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 257.81 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -19754,7 +19751,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -19772,7 +19769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d96acedf-24c3-4729-b7cb-86b344881d40")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 273.05 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -19833,7 +19830,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -19850,7 +19847,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "da47b362-9410-49d2-8151-f93e7c3d526c")
-		(property "Reference" "R11"
+		(property "Reference" "R12"
 			(at 184.658 209.55 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19936,7 +19933,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R11")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -19954,7 +19951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbb54a9a-4188-4a2c-98c4-65478c3d8690")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 101.6 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -20015,7 +20012,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -20112,7 +20109,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8bdf83-f3ec-4d37-ab3a-8328c338fbbb")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 254 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -20172,7 +20169,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -20190,7 +20187,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dcfb5fd3-9cb9-4f82-8707-adce0bfdefba")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR038"
 			(at 234.95 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -20251,7 +20248,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20269,7 +20266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0e3832a-e78d-4637-b1da-538690b8a04b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 162.56 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -20329,7 +20326,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -20428,7 +20425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2e9119d-9897-4b4e-be78-f9a119717742")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR057"
 			(at 321.31 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -20489,7 +20486,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -20507,7 +20504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5e81113-da0e-465c-a809-79c5a1a01939")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 63.5 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -20567,7 +20564,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -20585,7 +20582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8688c8d-892b-4fec-be7b-3b2d35043621")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR063"
 			(at 369.57 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -20646,7 +20643,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR058")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -20664,7 +20661,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd05213-fcc0-4b16-91bd-cae7d37f037b")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 78.74 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -20725,7 +20722,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -21091,7 +21088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa063538-7553-478f-a151-9663499dd28a")
-		(property "Reference" "R8"
+		(property "Reference" "R9"
 			(at 129.54 222.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21155,7 +21152,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(reference "R8")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -21229,7 +21226,7 @@
 		)
 	)
 	(sheet
-		(at 223.52 57.15)
+		(at 223.52 80.01)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21242,9 +21239,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "26b48b96-d6f0-4640-a594-6ae05ce5f71b")
-		(property "Sheetname" "SB1"
-			(at 219.202 61.722 0)
+		(uuid "1e1d7a42-0db7-4ee4-a889-ee81eba0f3c8")
+		(property "Sheetname" "SB2"
+			(at 219.202 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21255,7 +21252,7 @@
 			)
 		)
 		(property "Sheetfile" "signal_block.kicad_sch"
-			(at 194.818 60.198 0)
+			(at 194.818 83.058 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21267,8 +21264,8 @@
 			)
 		)
 		(pin "AOUT_N" output
-			(at 236.22 62.23 0)
-			(uuid "c2a241f1-a7c6-4c8a-9e28-c556db5d2c32")
+			(at 236.22 85.09 0)
+			(uuid "ebfe55cc-0abd-4160-9d39-c0b6e48b3b39")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21277,8 +21274,8 @@
 			)
 		)
 		(pin "AOUT_P" output
-			(at 236.22 59.69 0)
-			(uuid "7dcbc340-48c4-454d-bfd6-ef1da404ba38")
+			(at 236.22 82.55 0)
+			(uuid "44509900-fc75-4f6a-998b-7ccc79d4c7a1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21289,13 +21286,13 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(page "2")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 223.52 95.25)
+		(at 223.52 110.49)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21308,9 +21305,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "3d2fab60-312f-4afa-9448-ea43b3519a6a")
-		(property "Sheetname" "SB6"
-			(at 219.202 99.822 0)
+		(uuid "1f5801e3-bdab-4f31-a280-028b6841660d")
+		(property "Sheetname" "SB5"
+			(at 219.202 115.062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21321,7 +21318,7 @@
 			)
 		)
 		(property "Sheetfile" "signal_block.kicad_sch"
-			(at 194.818 98.298 0)
+			(at 194.818 113.538 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21333,8 +21330,8 @@
 			)
 		)
 		(pin "AOUT_N" output
-			(at 236.22 100.33 0)
-			(uuid "8346dcff-70ce-4050-a510-05c8f093f71c")
+			(at 236.22 115.57 0)
+			(uuid "a046a419-4808-4f77-8b7b-76cd3b2c0825")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21343,8 +21340,8 @@
 			)
 		)
 		(pin "AOUT_P" output
-			(at 236.22 97.79 0)
-			(uuid "11df4d3a-4ab6-43a8-b654-15f48af82570")
+			(at 236.22 113.03 0)
+			(uuid "04eb99b4-69e0-4748-9c0c-3ef460d05b10")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21355,7 +21352,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(page "7")
+					(page "6")
 				)
 			)
 		)
@@ -21575,8 +21572,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "83995c98-2fb2-4e6b-8c1a-49363bfa6bab")
-		(property "Sheetname" "SB2"
+		(uuid "8b920151-19f6-446b-aad0-0bf785368d64")
+		(property "Sheetname" "SB7"
 			(at 219.202 69.342 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21601,7 +21598,7 @@
 		)
 		(pin "AOUT_N" output
 			(at 236.22 69.85 0)
-			(uuid "883567ed-d7e7-4e6f-9db6-2c6c7d124a7c")
+			(uuid "84a992e8-c093-4403-8a73-32d66449ac89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21611,7 +21608,7 @@
 		)
 		(pin "AOUT_P" output
 			(at 236.22 67.31 0)
-			(uuid "2ec53a83-23f3-4de9-bbaa-27b19b0682e0")
+			(uuid "07bfee03-b49b-46a7-99df-5c7e691c5545")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21622,13 +21619,13 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(page "3")
+					(page "8")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 223.52 72.39)
+		(at 223.52 87.63)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21641,9 +21638,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "8e376074-b16c-4624-98ef-c910278a89e5")
+		(uuid "9346ba09-baf6-4507-91fb-f1b9b55f8f0d")
 		(property "Sheetname" "SB3"
-			(at 219.202 76.962 0)
+			(at 219.202 92.202 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21654,7 +21651,7 @@
 			)
 		)
 		(property "Sheetfile" "signal_block.kicad_sch"
-			(at 194.818 75.438 0)
+			(at 194.818 90.678 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21666,8 +21663,8 @@
 			)
 		)
 		(pin "AOUT_N" output
-			(at 236.22 77.47 0)
-			(uuid "04963611-9bfc-48c8-a17e-3674265d843d")
+			(at 236.22 92.71 0)
+			(uuid "b1b960c6-4d2d-4ef8-81d6-333f124f5adc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21676,8 +21673,8 @@
 			)
 		)
 		(pin "AOUT_P" output
-			(at 236.22 74.93 0)
-			(uuid "a3ec0baf-e86e-4663-b304-20462eefecf3")
+			(at 236.22 90.17 0)
+			(uuid "02a5f62b-38d6-4f1b-91d2-3d98787e594d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21689,138 +21686,6 @@
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 223.52 110.49)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "a20a6c68-f4f4-4b40-90d6-d2c7554cb778")
-		(property "Sheetname" "SB8"
-			(at 219.202 115.062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "signal_block.kicad_sch"
-			(at 194.818 113.538 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "AOUT_N" output
-			(at 236.22 115.57 0)
-			(uuid "2ac95f46-68a2-40fd-9a98-357449d9ad3b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AOUT_P" output
-			(at 236.22 113.03 0)
-			(uuid "c12dd1d1-e328-4134-aeb3-a5b5178d0bb7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(page "9")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 223.52 80.01)
-		(size 12.7 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "b2385cce-9f51-4d63-9d92-5a2772ad4011")
-		(property "Sheetname" "SB4"
-			(at 219.202 84.582 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "signal_block.kicad_sch"
-			(at 194.818 83.058 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "AOUT_N" output
-			(at 236.22 85.09 0)
-			(uuid "276113bd-1ca1-4aab-aa5f-3455c59ce349")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "AOUT_P" output
-			(at 236.22 82.55 0)
-			(uuid "7dff2e3b-3d46-4920-a8cc-983395603a32")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(page "5")
 				)
 			)
 		)
@@ -21893,7 +21758,7 @@
 		)
 	)
 	(sheet
-		(at 223.52 87.63)
+		(at 223.52 72.39)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21906,9 +21771,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "c788519d-2f00-4572-8a46-36c8c3e2499e")
-		(property "Sheetname" "SB5"
-			(at 219.202 92.202 0)
+		(uuid "cb6c4a35-05f7-4ef5-9982-50cca5c46e80")
+		(property "Sheetname" "SB1"
+			(at 219.202 76.962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21919,7 +21784,7 @@
 			)
 		)
 		(property "Sheetfile" "signal_block.kicad_sch"
-			(at 194.818 90.678 0)
+			(at 194.818 75.438 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21931,8 +21796,8 @@
 			)
 		)
 		(pin "AOUT_N" output
-			(at 236.22 92.71 0)
-			(uuid "41d3e344-6c18-4292-9259-55a65f6443e0")
+			(at 236.22 77.47 0)
+			(uuid "2f2e9dd0-5428-448b-8c7a-9a20434e349c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21941,8 +21806,8 @@
 			)
 		)
 		(pin "AOUT_P" output
-			(at 236.22 90.17 0)
-			(uuid "379b11ee-22b2-4805-a04b-25fa73358bd4")
+			(at 236.22 74.93 0)
+			(uuid "58b84b93-9c34-4cdd-9ba0-b179fe7ed95c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21953,7 +21818,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(page "6")
+					(page "2")
 				)
 			)
 		)
@@ -22026,6 +21891,72 @@
 		)
 	)
 	(sheet
+		(at 223.52 57.15)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e0ca6377-1269-4dfc-b32d-8b3a92d20c45")
+		(property "Sheetname" "SB8"
+			(at 219.202 61.722 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signal_block.kicad_sch"
+			(at 194.818 60.198 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AOUT_N" output
+			(at 236.22 62.23 0)
+			(uuid "a8c04aaf-60aa-4d43-b9dc-83601fe4919b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOUT_P" output
+			(at 236.22 59.69 0)
+			(uuid "6ddfc617-8578-406f-b444-5f46c67f74cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 223.52 102.87)
 		(size 12.7 7.62)
 		(exclude_from_sim no)
@@ -22039,8 +21970,8 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "fe701933-2939-43ec-a76b-ec9b5f6332a0")
-		(property "Sheetname" "SB7"
+		(uuid "e1ee5601-5501-42a6-ab57-eb45cc03bd53")
+		(property "Sheetname" "SB6"
 			(at 219.202 107.442 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22065,7 +21996,7 @@
 		)
 		(pin "AOUT_N" output
 			(at 236.22 107.95 0)
-			(uuid "db39ad07-3838-40df-abc2-e4a55e7f4a94")
+			(uuid "6447ebd5-cb89-4a99-9f31-6febe2c6f8e2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22075,7 +22006,7 @@
 		)
 		(pin "AOUT_P" output
 			(at 236.22 105.41 0)
-			(uuid "0a431270-dd0b-41f5-92b6-df43ae895ddf")
+			(uuid "f885f0a1-20d5-4565-81c5-33bfc5ace476")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22086,7 +22017,73 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
-					(page "8")
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 223.52 95.25)
+		(size 12.7 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f34843da-bc2e-4cfa-a01e-a90f6b35614e")
+		(property "Sheetname" "SB4"
+			(at 219.202 99.822 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "signal_block.kicad_sch"
+			(at 194.818 98.298 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AOUT_N" output
+			(at 236.22 100.33 0)
+			(uuid "8ea4d8f5-6c58-4633-a0f4-44296c972d16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AOUT_P" output
+			(at 236.22 97.79 0)
+			(uuid "15ae8b5e-17cf-436a-99b8-601967bb96a0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b"
+					(page "5")
 				)
 			)
 		)
