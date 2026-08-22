@@ -848,7 +848,7 @@
         "uuid": "5c142d60-6b5a-463f-88b9-a177eae7f51b"
       }
     ],
-    "used_designators": "C1-80,1,11\\-2,#PWR1-139,Y1-2,JP1-16,TP1-8,R1-87,Q1-13,F1-8,D1-32,U1-22,121,J1-23,50k1,111,TC1-16,TH1,SW1-6,L1-4,FB1-2",
+    "used_designators": "C1-80,1,JP1-16,TP1-8,R1-95,11\\-2,Y1-2,#PWR1-139,Q1-13,F1-8,U1-22,D1-32,121,111,50k1,J1-27,TC1-16,TH1,SW1-6,L1-4,FB1-2",
     "variants": []
   },
   "sheets": [
@@ -857,35 +857,35 @@
       "mixed_signal_sensor_board"
     ],
     [
-      "cb6c4a35-05f7-4ef5-9982-50cca5c46e80",
+      "93cdba31-8ceb-4fc2-88aa-ea75667f9386",
       "SB1"
     ],
     [
-      "1e1d7a42-0db7-4ee4-a889-ee81eba0f3c8",
+      "68631b70-9666-42bc-a38c-d9e82f13b015",
       "SB2"
     ],
     [
-      "9346ba09-baf6-4507-91fb-f1b9b55f8f0d",
+      "79869bf1-c55a-41dd-8d31-15aa1e82b7ab",
       "SB3"
     ],
     [
-      "f34843da-bc2e-4cfa-a01e-a90f6b35614e",
+      "d8cd1213-5cf5-49a4-a2fc-351ba462b0bf",
       "SB4"
     ],
     [
-      "1f5801e3-bdab-4f31-a280-028b6841660d",
+      "6070c20e-81d4-4c6c-8c90-a3b3e748b262",
       "SB5"
     ],
     [
-      "e1ee5601-5501-42a6-ab57-eb45cc03bd53",
+      "eadb7784-ea6f-418e-b25a-e61894b79c8b",
       "SB6"
     ],
     [
-      "8b920151-19f6-446b-aad0-0bf785368d64",
+      "c2ac02c5-1234-4ad0-afc4-d2283c7d61e6",
       "SB7"
     ],
     [
-      "e0ca6377-1269-4dfc-b32d-8b3a92d20c45",
+      "bf1a8160-c925-47fb-a8a9-885e50868a6a",
       "SB8"
     ],
     [
@@ -911,6 +911,14 @@
     [
       "4774a8d6-944e-4a86-81b4-a8db3fe171f5",
       "PYRO4"
+    ],
+    [
+      "85f9124f-f5ac-4ae5-a13c-d413325d4c9e",
+      "POWER"
+    ],
+    [
+      "d57a1e3e-0f65-4b44-85ee-121021b5f53c",
+      "ADC"
     ]
   ],
   "text_variables": {},

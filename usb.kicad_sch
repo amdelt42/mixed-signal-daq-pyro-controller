@@ -1437,49 +1437,61 @@
 			(embedded_fonts no)
 		)
 	)
-	(junction
-		(at 153.67 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1eb6f35d-ceef-425c-9bf9-3376a719cb46")
+	(text "USB"
+		(exclude_from_sim no)
+		(at 150.368 67.31 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "d3932fb5-62c2-4ba3-b8fb-7d7b6cd425e2")
 	)
 	(junction
-		(at 153.67 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3449ab03-0279-4c38-87cf-82b5c7729c29")
-	)
-	(junction
-		(at 130.81 115.57)
+		(at 127 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "34a61744-0bd5-4fd5-91ac-1093192b5dc4")
 	)
 	(junction
-		(at 161.29 116.84)
+		(at 149.86 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6ec75d7-713d-496d-80cc-e2ee7b314600")
+	)
+	(junction
+		(at 157.48 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b41e40aa-2bf3-4e7b-b0cc-77385865a220")
 	)
+	(junction
+		(at 149.86 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ccfc2cad-4a90-4175-9aa0-cae4da1027ca")
+	)
 	(no_connect
-		(at 153.67 107.95)
+		(at 149.86 111.76)
 		(uuid "0acad6d0-4bcb-47ae-9110-21bb396f6205")
 	)
 	(no_connect
-		(at 153.67 77.47)
+		(at 149.86 81.28)
 		(uuid "3b7abc65-a92c-4657-80ed-1254a971163b")
 	)
 	(no_connect
-		(at 153.67 105.41)
+		(at 149.86 109.22)
 		(uuid "62c01cd0-c18f-4126-b70f-3acf544e4324")
 	)
 	(no_connect
-		(at 184.15 87.63)
+		(at 171.45 91.44)
 		(uuid "7f60a6ce-f480-46cd-9ef7-f1298916fce1")
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 153.67 92.71)
+			(xy 149.86 93.98) (xy 149.86 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 85.09) (xy 153.67 85.09)
+			(xy 153.67 88.9) (xy 149.86 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 82.55) (xy 153.67 82.55)
+			(xy 161.29 86.36) (xy 149.86 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1509,17 +1521,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 90.17) (xy 176.53 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e214999-4619-4f9a-aab2-f175eb1c3df6")
-	)
-	(wire
-		(pts
-			(xy 191.77 92.71) (xy 191.77 90.17)
+			(xy 179.07 96.52) (xy 179.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 92.71) (xy 179.07 92.71)
+			(xy 163.83 96.52) (xy 166.37 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 95.25) (xy 191.77 95.25)
+			(xy 176.53 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 116.84) (xy 161.29 116.84)
+			(xy 153.67 120.65) (xy 157.48 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1561,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 92.71) (xy 191.77 92.71)
+			(xy 176.53 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1569,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 90.17) (xy 194.31 90.17)
+			(xy 179.07 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 95.25) (xy 191.77 97.79)
+			(xy 179.07 99.06) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 97.79) (xy 153.67 97.79)
+			(xy 149.86 101.6) (xy 163.83 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 97.79) (xy 176.53 95.25)
+			(xy 163.83 101.6) (xy 163.83 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +1611,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 90.17) (xy 176.53 92.71)
+			(xy 163.83 93.98) (xy 163.83 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1621,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 97.79) (xy 194.31 97.79)
+			(xy 179.07 101.6) (xy 181.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1629,17 +1631,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 97.79) (xy 176.53 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4da53fe-c674-4307-bea5-59ee4a1e600a")
-	)
-	(wire
-		(pts
-			(xy 165.1 109.22) (xy 165.1 82.55)
+			(xy 161.29 113.03) (xy 161.29 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 95.25) (xy 179.07 95.25)
+			(xy 163.83 99.06) (xy 166.37 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 109.22) (xy 157.48 85.09)
+			(xy 153.67 113.03) (xy 153.67 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1661,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 95.25) (xy 153.67 97.79)
+			(xy 149.86 99.06) (xy 149.86 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +1671,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 90.17) (xy 166.37 90.17)
+			(xy 149.86 93.98) (xy 163.83 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 116.84) (xy 165.1 116.84)
+			(xy 157.48 120.65) (xy 161.29 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 115.57) (xy 138.43 115.57)
+			(xy 127 119.38) (xy 134.62 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1700,7 @@
 		(uuid "fa4dac78-0088-421a-b91d-fe15d397cf9d")
 	)
 	(label "DN"
-		(at 160.02 90.17 0)
+		(at 156.21 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1718,7 +1710,7 @@
 		(uuid "29ba67a4-81b7-4866-b587-eadfc0b2d99a")
 	)
 	(label "DP"
-		(at 160.02 97.79 0)
+		(at 156.21 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1729,7 +1721,7 @@
 	)
 	(hierarchical_label "USB_P"
 		(shape bidirectional)
-		(at 194.31 97.79 0)
+		(at 181.61 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1740,7 +1732,7 @@
 	)
 	(hierarchical_label "USB_N"
 		(shape bidirectional)
-		(at 194.31 90.17 0)
+		(at 181.61 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1751,7 +1743,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 115.57 0)
+		(at 127 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1761,8 +1753,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39b02db3-d933-42e6-b0b5-c30411e53a37")
-		(property "Reference" "#PWR0104"
-			(at 130.81 121.92 0)
+		(property "Reference" "#PWR060"
+			(at 127 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1773,7 +1765,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 120.65 0)
+			(at 127 124.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1783,7 +1775,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 115.57 0)
+			(at 127 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1794,7 +1786,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 115.57 0)
+			(at 127 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1805,7 +1797,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 115.57 0)
+			(at 127 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1821,7 +1813,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "#PWR0104")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -1829,7 +1821,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 138.43 92.71 0)
+		(at 134.62 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1839,8 +1831,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4140347b-bcf3-4ee1-b112-3c85b1ca8508")
-		(property "Reference" "J13"
-			(at 138.43 69.85 0)
+		(property "Reference" "J11"
+			(at 134.62 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1850,7 +1842,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 138.43 72.39 0)
+			(at 134.62 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1860,7 +1852,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 142.24 92.71 0)
+			(at 138.43 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1871,7 +1863,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 142.24 92.71 0)
+			(at 138.43 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1882,7 +1874,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 138.43 92.71 0)
+			(at 134.62 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,7 +1885,7 @@
 			)
 		)
 		(property "LCSC Part" "C3020560"
-			(at 138.43 92.71 0)
+			(at 134.62 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1904,7 +1896,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 138.43 92.71 0)
+			(at 134.62 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1968,7 +1960,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "J13")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -1976,209 +1968,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 170.18 90.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "65479e6f-7d4e-466b-a0cf-f0534eb49838")
-		(property "Reference" "R49"
-			(at 170.18 85.852 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 170.18 87.884 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.18 91.948 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C482106"
-			(at 170.18 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 170.18 90.17 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "76c9e0b4-bb61-4145-8633-e8c52fa49ad0")
-		)
-		(pin "2"
-			(uuid "a2ff2a0e-f7e0-4dfc-9bce-541e92f55426")
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R49")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 170.18 97.79 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "69119e5a-b9c8-4ec3-8726-ebc809450fdb")
-		(property "Reference" "R50"
-			(at 170.18 93.218 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22R"
-			(at 170.434 95.504 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 170.18 99.568 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 170.18 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C482106"
-			(at 170.18 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage Rating" ""
-			(at 170.18 97.79 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "576535fe-ff32-4322-ba95-32ff29c4ae37")
-		)
-		(pin "2"
-			(uuid "54658f5e-9e25-4238-b736-d9f29be21b11")
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 157.48 113.03 180)
+		(at 153.67 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2187,8 +1977,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6eef7fbc-5378-4722-95d7-c3c87d7e3d4f")
-		(property "Reference" "R47"
-			(at 152.908 113.03 90)
+		(property "Reference" "R39"
+			(at 149.098 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2198,7 +1988,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 155.194 112.776 90)
+			(at 151.384 116.586 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2208,7 +1998,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 159.258 113.03 90)
+			(at 155.448 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2219,7 +2009,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 113.03 0)
+			(at 153.67 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2230,7 +2020,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 157.48 113.03 0)
+			(at 153.67 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2241,7 +2031,7 @@
 			)
 		)
 		(property "LCSC Part" "C278598"
-			(at 157.48 113.03 90)
+			(at 153.67 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2252,7 +2042,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 157.48 113.03 90)
+			(at 153.67 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2061,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R47")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2279,7 +2069,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 116.84 0)
+		(at 157.48 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2289,8 +2079,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8bf3d5f4-4c8f-40c6-970c-a7c644905779")
-		(property "Reference" "#PWR0105"
-			(at 161.29 123.19 0)
+		(property "Reference" "#PWR061"
+			(at 157.48 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2301,7 +2091,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 121.92 0)
+			(at 157.48 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2311,7 +2101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 116.84 0)
+			(at 157.48 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2322,7 +2112,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 116.84 0)
+			(at 157.48 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2333,7 +2123,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 116.84 0)
+			(at 157.48 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2349,7 +2139,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "#PWR0105")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -2357,7 +2147,7 @@
 	)
 	(symbol
 		(lib_id "Power_Protection:USBLC6-2P6")
-		(at 184.15 92.71 0)
+		(at 171.45 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2367,8 +2157,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9544d2dc-4e51-4fae-8814-26ff69a10701")
-		(property "Reference" "U8"
-			(at 185.8011 85.09 0)
+		(property "Reference" "U2"
+			(at 173.1011 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2379,7 +2169,7 @@
 			)
 		)
 		(property "Value" "USBLC6-2P6"
-			(at 185.8011 87.63 0)
+			(at 173.1011 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2390,7 +2180,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-666"
-			(at 185.166 99.441 0)
+			(at 172.466 103.251 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2403,7 +2193,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 185.166 101.346 0)
+			(at 172.466 105.156 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2415,7 +2205,7 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-666"
-			(at 184.15 92.71 0)
+			(at 171.45 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2446,7 +2236,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "U8")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -2454,7 +2244,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 184.15 100.33 0)
+		(at 171.45 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2464,8 +2254,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3cc7b6c-d739-4870-8827-1e1d86ec4bd4")
-		(property "Reference" "#PWR0106"
-			(at 184.15 106.68 0)
+		(property "Reference" "#PWR062"
+			(at 171.45 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,7 +2266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 184.15 105.41 0)
+			(at 171.45 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2486,7 +2276,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 184.15 100.33 0)
+			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2497,7 +2287,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 100.33 0)
+			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2508,7 +2298,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 100.33 0)
+			(at 171.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,7 +2314,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "#PWR0106")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2532,7 +2322,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 165.1 113.03 180)
+		(at 161.29 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2541,8 +2331,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c51195eb-a572-47fb-a3af-69fc3a845f44")
-		(property "Reference" "R48"
-			(at 160.528 113.03 90)
+		(property "Reference" "R40"
+			(at 156.718 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2552,7 +2342,7 @@
 			)
 		)
 		(property "Value" "5K1"
-			(at 162.814 112.776 90)
+			(at 159.004 116.586 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2562,7 +2352,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 166.878 113.03 90)
+			(at 163.068 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2573,7 +2363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 113.03 0)
+			(at 161.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2584,7 +2374,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 165.1 113.03 0)
+			(at 161.29 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,7 +2385,7 @@
 			)
 		)
 		(property "LCSC Part" "C278598"
-			(at 165.1 113.03 90)
+			(at 161.29 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +2396,7 @@
 			)
 		)
 		(property "Voltage Rating" ""
-			(at 165.1 113.03 90)
+			(at 161.29 116.84 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2625,7 +2415,7 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/0f186850-c4c3-487e-83d6-f05a4c56befe"
-					(reference "R48")
+					(reference "R40")
 					(unit 1)
 				)
 			)

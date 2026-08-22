@@ -637,7 +637,6 @@
 		(symbol "Transistor_FET:Q_NMOS_GSD"
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -938,15 +937,14 @@
 		(symbol "Transistor_FET:Q_PMOS_GSD"
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
+			(property "Reference" "Q2"
+				(at 6.35 1.2701 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -956,8 +954,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_PMOS_GSD"
-				(at 5.08 0 0)
+			(property "Value" "SQA405EJ-T1_GE3"
+				(at 6.35 -1.2699 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -967,7 +965,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -978,7 +976,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C5143597.pdf?lcsc_vid=Q1JZU11RFQVYBlNfQVcMVVJQQwRZAwYFT1cPUgUDFQIxVlNeQFFXX1BUQFFXUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -989,7 +987,7 @@
 					)
 				)
 			)
-			(property "Description" "P-MOSFET transistor, gate/source/drain"
+			(property "Description" "MOSFET P-CH 40V 10A SC-70-6L"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1179,6 +1177,24 @@
 				)
 			)
 			(symbol "Q_PMOS_GSD_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1189,7 +1205,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1207,25 +1223,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1492,8 +1490,8 @@
 		)
 	)
 	(rectangle
-		(start 165.1 76.708)
-		(end 222.25 121.158)
+		(start 180.34 76.708)
+		(end 237.49 127)
 		(stroke
 			(width 0)
 			(type default)
@@ -1503,9 +1501,21 @@
 		)
 		(uuid "42b5dfc9-ac53-43c7-9d4e-9cfcbe3090f3")
 	)
+	(text "PYRO"
+		(exclude_from_sim no)
+		(at 113.284 76.708 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0854cf86-5bfe-4305-b72a-683b0092cacb")
+	)
 	(text "https://www.falstad.com/circuit/"
 		(exclude_from_sim no)
-		(at 192.278 78.486 0)
+		(at 207.518 78.486 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1515,9 +1525,9 @@
 		)
 		(uuid "95075cc8-6bde-4eac-a4d8-305121592e77")
 	)
-	(text "<cir f=\"1\" ts=\"0.000005\" ic=\"10.20027730826997\" cb=\"58\" pb=\"50\" vr=\"5\" mts=\"5e-11\">\n  <mm nm=\"mosfetmodel\" f=\"0\" vt=\"10\" be=\"0.02\" sb=\"1\" dsy=\"0\" bd=\"1\" bt=\"0\" sbd=\"0\"/>\n  <f x=\"640 384 688 384\" f=\"1\" mo=\"mosfetmodel\"/>\n  <f x=\"560 432 624 432\" f=\"0\" mo=\"default\"/>\n  <s x=\"496 432 560 432\" f=\"0\" p=\"1\"/>\n  <g x=\"432 464 432 496\" f=\"0\"/>\n  <g x=\"624 496 624 512\" f=\"0\"/>\n  <w x=\"624 416 624 384\" f=\"0\"/>\n  <w x=\"688 368 688 336\" f=\"0\"/>\n  <g x=\"688 240 688 224\" f=\"0\"/>\n  <r x=\"688 464 688 496\" f=\"0\" r=\"1.2\"/>\n  <w x=\"624 448 624 496\" f=\"0\"/>\n  <w x=\"688 400 688 432\" f=\"0\"/>\n  <w x=\"432 464 432 432\" f=\"0\"/>\n  <r x=\"768 368 768 432\" f=\"0\" r=\"50000\"/>\n  <x x=\"555 478 611 481\" f=\"0\" si=\"24\" te=\"NMOS\"/>\n  <x x=\"695 395 751 398\" f=\"0\" si=\"24\" te=\"PMOS\"/>\n  <x x=\"403 395 558 398\" f=\"0\" si=\"24\" te=\"PYRO_SIGNAL\"/>\n  <x x=\"709 256 751 259\" f=\"0\" si=\"24\" te=\"ARM\"/>\n  <w x=\"624 336 688 336\" f=\"0\"/>\n  <w x=\"640 384 624 384\" f=\"0\"/>\n  <r x=\"624 336 624 384\" f=\"0\" r=\"100000\"/>\n  <g x=\"688 496 688 512\" f=\"0\"/>\n  <v x=\"688 240 688 288\" f=\"16\" wf=\"0\" maxv=\"24\"/>\n  <s x=\"688 288 688 336\" f=\"0\" p=\"1\"/>\n  <v x=\"432 432 496 432\" f=\"16\" wf=\"0\" maxv=\"3.3\"/>\n  <s x=\"688 464 688 432\" f=\"0\"/>\n  <dm nm=\"fwdrop=2.228\" f=\"1\" is=\"9.32e-11\" rs=\"0\" n=\"3.7299999999758477\" bv=\"0\" fi=\"1\"/>\n  <LED x=\"848 432 880 432\" f=\"0\" mo=\"fwdrop=2.228\" cr=\"1\" cg=\"0\" cb=\"0\" mbc=\"0.01\"/>\n  <g x=\"880 432 896 432\" f=\"0\"/>\n  <x x=\"817 412 958 415\" f=\"0\" si=\"24\" te=\"PYRO_FAULT\"/>\n  <w x=\"688 432 768 432\" f=\"0\"/>\n  <r x=\"768 432 832 432\" f=\"0\" r=\"50000\"/>\n  <dm nm=\"zener-3\" f=\"1\" is=\"1.7143528192810002e-7\" rs=\"0\" n=\"2.0000000000000084\" bv=\"3\" fi=\"1\"/>\n  <z x=\"832 496 832 432\" f=\"0\" mo=\"zener-3\"/>\n  <g x=\"832 496 832 512\" f=\"0\"/>\n  <w x=\"832 432 848 432\" f=\"0\"/>\n  <v x=\"768 320 768 368\" f=\"16\" wf=\"0\" maxv=\"24\"/>\n  <g x=\"768 320 768 304\" f=\"0\"/>\n</cir>\n"
+	(text "<cir f=\"1\" ts=\"0.000005\" ic=\"10.20027730826997\" cb=\"58\" pb=\"50\" vr=\"5\" mts=\"5e-11\">\n  <mm nm=\"mosfetmodel\" f=\"0\" vt=\"2.5\" be=\"0.02\" sb=\"1\" dsy=\"0\" bd=\"1\" bt=\"0\" sbd=\"0\"/>\n  <f x=\"640 384 688 384\" f=\"1\" mo=\"mosfetmodel\"/>\n  <f x=\"512 432 576 432\" f=\"0\" mo=\"default\"/>\n  <s x=\"368 432 432 432\" f=\"0\" p=\"1\"/>\n  <g x=\"304 464 304 512\" f=\"0\"/>\n  <g x=\"576 496 576 512\" f=\"0\"/>\n  <w x=\"576 416 576 384\" f=\"0\"/>\n  <w x=\"688 368 688 336\" f=\"0\"/>\n  <g x=\"688 240 688 224\" f=\"0\"/>\n  <r x=\"688 464 688 496\" f=\"0\" r=\"1.2\"/>\n  <w x=\"576 448 576 496\" f=\"0\"/>\n  <w x=\"688 400 688 432\" f=\"0\"/>\n  <w x=\"304 464 304 432\" f=\"0\"/>\n  <r x=\"768 368 768 432\" f=\"0\" r=\"50000\"/>\n  <x x=\"507 478 563 481\" f=\"0\" si=\"24\" te=\"NMOS\"/>\n  <x x=\"695 395 751 398\" f=\"0\" si=\"24\" te=\"PMOS\"/>\n  <x x=\"403 395 558 398\" f=\"0\" si=\"24\" te=\"PYRO_SIGNAL\"/>\n  <x x=\"709 256 751 259\" f=\"0\" si=\"24\" te=\"ARM\"/>\n  <w x=\"624 336 688 336\" f=\"0\"/>\n  <r x=\"576 336 576 384\" f=\"0\" r=\"10000\"/>\n  <g x=\"688 496 688 512\" f=\"0\"/>\n  <v x=\"688 240 688 288\" f=\"16\" wf=\"0\" maxv=\"24\"/>\n  <s x=\"688 288 688 336\" f=\"0\"/>\n  <v x=\"304 432 368 432\" f=\"16\" wf=\"0\" maxv=\"3.3\"/>\n  <s x=\"688 464 688 432\" f=\"0\" p=\"1\"/>\n  <dm nm=\"fwdrop=2.228\" f=\"1\" is=\"9.32e-11\" rs=\"0\" n=\"3.7299999999758477\" bv=\"0\" fi=\"1\"/>\n  <LED x=\"848 432 880 432\" f=\"0\" mo=\"fwdrop=2.228\" cr=\"1\" cg=\"0\" cb=\"0\" mbc=\"0.01\"/>\n  <g x=\"880 432 896 432\" f=\"0\"/>\n  <x x=\"817 412 958 415\" f=\"0\" si=\"24\" te=\"PYRO_FAULT\"/>\n  <w x=\"688 432 768 432\" f=\"0\"/>\n  <r x=\"768 432 832 432\" f=\"0\" r=\"50000\"/>\n  <dm nm=\"zener-3\" f=\"1\" is=\"1.7143528192810002e-7\" rs=\"0\" n=\"2.0000000000000084\" bv=\"3\" fi=\"1\"/>\n  <z x=\"832 496 832 432\" f=\"0\" mo=\"zener-3\"/>\n  <g x=\"832 496 832 512\" f=\"0\"/>\n  <w x=\"832 432 848 432\" f=\"0\"/>\n  <v x=\"768 320 768 368\" f=\"16\" wf=\"0\" maxv=\"24\"/>\n  <g x=\"768 320 768 304\" f=\"0\"/>\n  <r x=\"640 384 592 384\" f=\"0\" r=\"1000\"/>\n  <w x=\"576 336 624 336\" f=\"0\"/>\n  <r x=\"512 432 432 432\" f=\"0\" r=\"1000\"/>\n  <r x=\"432 432 432 480\" f=\"0\" r=\"10000\"/>\n  <g x=\"432 480 432 512\" f=\"0\"/>\n  <w x=\"592 384 576 384\" f=\"0\"/>\n</cir>\n"
 		(exclude_from_sim no)
-		(at 193.04 100.33 0)
+		(at 208.534 103.124 0)
 		(effects
 			(font
 				(face "KiCad Font")
@@ -1527,38 +1537,44 @@
 		(uuid "f5c4e723-78da-47f7-a9c6-e8cc62de5b4e")
 	)
 	(junction
-		(at 114.3 87.63)
+		(at 123.19 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "601e41b5-b338-41b8-9540-3c9cd37e796c")
+		(uuid "190b2b84-eba5-4737-93e5-8e001de159af")
 	)
 	(junction
-		(at 139.7 110.49)
+		(at 82.55 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d6a1fc9-d7b7-4bcb-8650-f16e82a8fe54")
+	)
+	(junction
+		(at 123.19 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e2fdad1-9871-4c92-a1c5-706fe9acfbd5")
+	)
+	(junction
+		(at 161.29 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "812ba76f-26fe-454d-8258-ce13d835b1d7")
 	)
 	(junction
-		(at 96.52 95.25)
+		(at 102.87 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1461f80-2ae4-4422-bd10-470ec095bbf0")
+		(uuid "adb921ca-9b1f-45ed-9dd8-346026c9594f")
 	)
 	(junction
-		(at 127 110.49)
+		(at 148.59 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c52517cb-d25c-49db-a331-6af220b2df64")
-	)
-	(junction
-		(at 114.3 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d61c1f04-9dc7-48e4-9c2d-b286600cc819")
+		(uuid "ca7ec8b6-4bcd-4a11-82ea-38408ca9bb6c")
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 96.52 97.79)
+			(xy 102.87 95.25) (xy 102.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1584,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 110.49) (xy 114.3 113.03)
+			(xy 123.19 110.49) (xy 123.19 113.03)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1594,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 114.3 100.33)
+			(xy 102.87 95.25) (xy 105.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a24c2b-df56-4a57-b087-e3f6cf33a21d")
+	)
+	(wire
+		(pts
+			(xy 123.19 101.6) (xy 123.19 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1614,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 115.57) (xy 114.3 118.11)
+			(xy 123.19 115.57) (xy 123.19 118.11)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1624,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 110.49) (xy 127 110.49)
+			(xy 123.19 110.49) (xy 148.59 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1634,37 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 109.22) (xy 114.3 110.49)
+			(xy 92.71 102.87) (xy 95.25 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "433d2bf4-e453-4ef9-8d34-2e9fe5811b1c")
+	)
+	(wire
+		(pts
+			(xy 82.55 102.87) (xy 85.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "586ddf4e-c5cd-4605-91f5-01ab0dd8af3b")
+	)
+	(wire
+		(pts
+			(xy 148.59 107.95) (xy 148.59 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772bedf3-ab84-41c4-93eb-4540fcb0475e")
+	)
+	(wire
+		(pts
+			(xy 123.19 109.22) (xy 123.19 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1618,17 +1674,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 95.25) (xy 106.68 95.25)
+			(xy 113.03 95.25) (xy 115.57 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8be332f7-93be-467b-9fe1-83dee77070d6")
+		(uuid "95eb1ae5-ff00-4045-81b0-3b62d6fbf830")
 	)
 	(wire
 		(pts
-			(xy 139.7 110.49) (xy 142.24 110.49)
+			(xy 161.29 110.49) (xy 163.83 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1694,17 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 87.63) (xy 114.3 87.63)
+			(xy 102.87 110.49) (xy 102.87 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baac0358-4bda-4a7c-8621-cc06d61f6365")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 123.19 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1714,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 87.63) (xy 114.3 90.17)
+			(xy 123.19 87.63) (xy 123.19 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1724,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 110.49) (xy 139.7 110.49)
+			(xy 158.75 110.49) (xy 161.29 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1668,17 +1734,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 110.49) (xy 129.54 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6208cd2-5ab6-4e83-9e95-6f9f0448a690")
-	)
-	(wire
-		(pts
-			(xy 86.36 102.87) (xy 88.9 102.87)
+			(xy 80.01 102.87) (xy 82.55 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1686,9 +1742,19 @@
 		)
 		(uuid "ebf936a2-7eea-4da8-b730-5e26550fe6b9")
 	)
+	(wire
+		(pts
+			(xy 148.59 110.49) (xy 151.13 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fea7fd64-bc9f-46bb-9a6e-5cbc3c5f4427")
+	)
 	(hierarchical_label "PYRO_FAULT"
 		(shape output)
-		(at 142.24 110.49 0)
+		(at 163.83 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1699,7 +1765,7 @@
 	)
 	(hierarchical_label "PYRO_SIGNAL"
 		(shape input)
-		(at 86.36 102.87 180)
+		(at 80.01 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1710,7 +1776,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 107.95 0)
+		(at 82.55 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1719,9 +1785,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f35230c-4d04-4948-a330-dfb0edec50ab")
-		(property "Reference" "#PWR022"
-			(at 96.52 114.3 0)
+		(uuid "058e676f-51f7-49f9-b1e8-7e04e9f32686")
+		(property "Reference" "#PWR069"
+			(at 82.55 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1732,7 +1798,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 113.03 0)
+			(at 82.55 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1742,7 +1808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 107.95 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1753,7 +1819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 107.95 0)
+			(at 82.55 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1764,7 +1830,97 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 107.95 0)
+			(at 82.55 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbe5c8f6-866f-45fc-9d8a-3ae32a345f94")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "#PWR087")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "#PWR075")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f35230c-4d04-4948-a330-dfb0edec50ab")
+		(property "Reference" "#PWR070"
+			(at 102.87 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1780,27 +1936,27 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "#PWR055")
+					(reference "#PWR088")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "#PWR022")
+					(reference "#PWR070")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "#PWR023")
+					(reference "#PWR076")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "#PWR054")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_PMOS_GSD")
-		(at 111.76 95.25 0)
+		(lib_id "Device:R")
+		(at 88.9 102.87 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1808,33 +1964,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ceaee0c-f1e5-4698-bfd2-d04ba55de0c7")
-		(property "Reference" "Q2"
-			(at 118.11 93.9799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRLML5103TRPBF"
-			(at 118.11 96.5199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 116.84 92.71 0)
-			(hide yes)
+		(uuid "4234d990-76b1-4dd1-8329-b071f0fae1c9")
+		(property "Reference" "R43"
+			(at 88.9 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1843,9 +1975,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C28646353.pdf?lcsc_vid=Q1JZU11RFQVYBlNfQVcMVVJQQwRZAwYFT1cPUgUDFQIxVlNeQFFXX1BUQFFXUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 111.76 95.25 0)
-			(hide yes)
+		(property "Value" "1k"
+			(at 88.9 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1854,177 +1985,8 @@
 				)
 			)
 		)
-		(property "Description" "P-MOSFET transistor, gate/source/drain"
-			(at 111.76 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "69068ead-e222-411f-953d-848d7960d9bd")
-		)
-		(pin "1"
-			(uuid "a3571056-4cbd-429d-be6d-0f0a3ff68f05")
-		)
-		(pin "3"
-			(uuid "3590934d-6158-41d2-a96c-b898e4319ef5")
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "Q5")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "Q2")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "Q3")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GSD")
-		(at 93.98 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "591d4b4c-525d-401e-a826-8b0bce2afc77")
-		(property "Reference" "Q10"
-			(at 99.314 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CSD17571Q2"
-			(at 99.314 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "CSD17571Q2:CSD17571Q2"
-			(at 99.06 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C962382.pdf?lcsc_vid=Q1JZU11RFQVYBlNfQVcMVVJQQwRZAwYFT1cPUgUDFQIxVlNeQFFXX1BUQFFXUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
-			(at 93.98 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "N-Channel 30 V, 20 mΩ, SON 2×2 NexFET™ power TA = 25°C VALUE UNIT MOSFET i"
-			(at 93.98 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cc14e025-0071-45a3-8a1d-d02137db2add")
-		)
-		(pin "2"
-			(uuid "d368a800-bd19-46d7-9367-6e3b04b8ddaf")
-		)
-		(pin "3"
-			(uuid "01a1194f-801e-4a07-afa3-cc9c69bb061e")
-		)
-		(instances
-			(project "mixed_signal_sensor_board"
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "Q13")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "Q10")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "Q11")
-					(unit 1)
-				)
-				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "Q12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+24V")
-		(at 127 102.87 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6dc98ce8-8877-43b2-bd10-f5b11c5b31b2")
-		(property "Reference" "#PWR0134"
-			(at 127 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+24V"
-			(at 127 99.314 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 102.87 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 88.9 104.648 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2035,7 +1997,190 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 102.87 0)
+			(at 88.9 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 88.9 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e99b5c9-365f-4774-8bcd-b13328c5be11")
+		)
+		(pin "1"
+			(uuid "a5876edb-3ffb-443e-86b4-892df2452637")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "R61")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "R43")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "R49")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 109.22 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48f16fa9-f337-455f-81bc-2c6c77838cc8")
+		(property "Reference" "R45"
+			(at 109.22 90.678 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 109.22 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 109.22 97.028 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 109.22 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9949708b-9b74-4e47-ba84-54fb79d763c4")
+		)
+		(pin "1"
+			(uuid "b243b32f-859d-4d24-a9af-7c1e4afdb768")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "R45")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "R51")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 148.59 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6dc98ce8-8877-43b2-bd10-f5b11c5b31b2")
+		(property "Reference" "#PWR073"
+			(at 148.59 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+24V"
+			(at 148.59 96.774 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2046,7 +2191,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 127 102.87 0)
+			(at 148.59 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2062,19 +2207,19 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "#PWR0137")
+					(reference "#PWR091")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "#PWR0134")
+					(reference "#PWR073")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "#PWR0135")
+					(reference "#PWR079")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "#PWR0136")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -2082,7 +2227,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 139.7 118.11 0)
+		(at 161.29 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2092,8 +2237,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7217f1ba-f4ac-46ea-a016-2b1a163a7b24")
-		(property "Reference" "#PWR057"
-			(at 139.7 124.46 0)
+		(property "Reference" "#PWR074"
+			(at 161.29 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2104,7 +2249,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 139.7 123.19 0)
+			(at 161.29 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2114,7 +2259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 118.11 0)
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,7 +2270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 118.11 0)
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,7 +2281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 139.7 118.11 0)
+			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2152,19 +2297,19 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "#PWR0138")
+					(reference "#PWR092")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "#PWR057")
+					(reference "#PWR074")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "#PWR058")
+					(reference "#PWR080")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "#PWR059")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -2172,7 +2317,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 114.3 105.41 0)
+		(at 123.19 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2182,8 +2327,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759c5f0f-ce01-4b02-b998-96a664bb1551")
-		(property "Reference" "F5"
-			(at 116.84 104.1399 0)
+		(property "Reference" "F1"
+			(at 125.73 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2193,8 +2338,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Polyfuse"
-			(at 116.84 106.6799 0)
+		(property "Value" "MF-USHT050KX-2"
+			(at 125.73 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2205,7 +2350,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1210_3225Metric"
-			(at 115.57 110.49 0)
+			(at 124.46 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2216,8 +2361,8 @@
 				(justify left)
 			)
 		)
-		(property "Datasheet" ""
-			(at 114.3 105.41 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3760720.pdf?spm=wm.sxq.inf.ggs&lcsc_vid=E1ZcUQYCR1MNVlYDEwcLBFVXTwBcUwZQFVhWBVBREgUxVlNeQFNaVlVeQFdWXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4NBhADEA4cHktXRVZADxALGw%3D%3D"
+			(at 123.19 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,8 +2372,8 @@
 				)
 			)
 		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 114.3 105.41 0)
+		(property "Description" "PTC Resettable Fuses"
+			(at 123.19 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2247,19 +2392,19 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "F8")
+					(reference "F4")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "F5")
+					(reference "F1")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "F6")
+					(reference "F2")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "F7")
+					(reference "F3")
 					(unit 1)
 				)
 			)
@@ -2267,7 +2412,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 96.52 91.44 0)
+		(at 102.87 91.44 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2276,8 +2422,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "854ccebb-6790-448e-b70e-d9aa0bd1a947")
-		(property "Reference" "R80"
-			(at 100.584 90.424 0)
+		(property "Reference" "R44"
+			(at 98.806 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2286,8 +2432,8 @@
 				)
 			)
 		)
-		(property "Value" "100k"
-			(at 100.33 92.71 0)
+		(property "Value" "10k"
+			(at 99.06 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2297,7 +2443,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 94.742 91.44 90)
+			(at 104.648 91.44 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2308,7 +2454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 91.44 0)
+			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,7 +2465,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 96.52 91.44 0)
+			(at 102.87 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2338,19 +2484,19 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "R83")
+					(reference "R62")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "R80")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "R81")
+					(reference "R50")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "R82")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -2358,7 +2504,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 106.68 0)
+		(at 148.59 104.14 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2368,8 +2514,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88774c5e-fba6-4208-a717-640a332fe5cd")
-		(property "Reference" "50k1"
-			(at 130.81 107.696 0)
+		(property "Reference" "R46"
+			(at 152.4 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2378,8 +2524,8 @@
 				)
 			)
 		)
-		(property "Value" "10K"
-			(at 130.556 105.41 0)
+		(property "Value" "50k"
+			(at 152.4 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2389,7 +2535,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.222 106.68 90)
+			(at 146.812 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2400,7 +2546,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 106.68 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2411,7 +2557,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 127 106.68 0)
+			(at 148.59 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2430,27 +2576,27 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "R79")
+					(reference "R64")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "50k1")
+					(reference "R46")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "R75")
+					(reference "R52")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "R77")
+					(reference "R58")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 119.38 113.03 0)
+		(lib_id "Device:R")
+		(at 82.55 106.68 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2458,9 +2604,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8c104d60-01ff-4072-bfa7-936510c7f610")
-		(property "Reference" "J19"
-			(at 123.952 113.03 0)
+		(uuid "8bc7b32a-1eff-46db-8742-5f9af4b7c2a7")
+		(property "Reference" "R42"
+			(at 78.74 105.918 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2469,8 +2615,8 @@
 				)
 			)
 		)
-		(property "Value" "PYRO"
-			(at 123.952 115.57 0)
+		(property "Value" "10k"
+			(at 78.74 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2479,8 +2625,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
-			(at 119.38 113.03 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 84.328 106.68 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2491,7 +2637,98 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 113.03 0)
+			(at 82.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 82.55 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c69597f2-141d-4013-9fb3-99f3112e738c")
+		)
+		(pin "1"
+			(uuid "5a2ffe67-cb20-4103-ab7f-0c6c296fbc37")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "R60")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 128.27 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c104d60-01ff-4072-bfa7-936510c7f610")
+		(property "Reference" "J13"
+			(at 132.842 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PYRO"
+			(at 132.842 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal"
+			(at 128.27 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2502,7 +2739,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 119.38 113.03 0)
+			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2521,19 +2758,116 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "J22")
+					(reference "J16")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "J19")
+					(reference "J13")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "J20")
+					(reference "J14")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "J21")
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_NMOS_GSD")
+		(at 100.33 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ed68869-5889-4e09-b939-f2986a72a3d7")
+		(property "Reference" "Q1"
+			(at 106.68 101.5999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002WT1G"
+			(at 106.68 104.1399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 105.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C232391.pdf?lcsc_vid=Q1JZU11RFQVYBlNfQVcMVVJQQwRZAwYFT1cPUgUDFQIxVlNeQFFXX1BUQFFXUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 100.33 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 340mA SC-70(SOT-323)"
+			(at 100.33 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e8dc5e48-ee03-4a82-8a6e-73b115ab8865")
+		)
+		(pin "3"
+			(uuid "50082ba4-c958-4449-a742-6559f4328d82")
+		)
+		(pin "1"
+			(uuid "7955f808-0f77-41a1-99da-7f578c30594f")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "Q7")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "Q3")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2541,7 +2875,7 @@
 	)
 	(symbol
 		(lib_id "power:+24V")
-		(at 114.3 87.63 0)
+		(at 123.19 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2550,8 +2884,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9602c60d-f1a8-404e-85d5-ef03dc4a5133")
-		(property "Reference" "#PWR0126"
-			(at 114.3 91.44 0)
+		(property "Reference" "#PWR071"
+			(at 123.19 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2562,7 +2896,7 @@
 			)
 		)
 		(property "Value" "ARM"
-			(at 112.268 83.058 0)
+			(at 121.158 83.058 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2573,7 +2907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 87.63 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2584,7 +2918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 87.63 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,7 +2929,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(at 114.3 87.63 0)
+			(at 123.19 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2611,19 +2945,19 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "#PWR0129")
+					(reference "#PWR089")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "#PWR0126")
+					(reference "#PWR071")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "#PWR0127")
+					(reference "#PWR077")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "#PWR0128")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -2631,7 +2965,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 110.49 90)
+		(at 154.94 110.49 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2640,8 +2974,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9814d08e-0d5c-4f62-8411-e3c78f1b5fa6")
-		(property "Reference" "R72"
-			(at 133.35 113.284 90)
+		(property "Reference" "R47"
+			(at 154.94 113.284 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2650,8 +2984,8 @@
 				)
 			)
 		)
-		(property "Value" "50K"
-			(at 133.096 115.57 90)
+		(property "Value" "50k"
+			(at 154.686 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2661,7 +2995,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 133.35 112.268 90)
+			(at 154.94 112.268 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2672,7 +3006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 110.49 0)
+			(at 154.94 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2683,7 +3017,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 110.49 0)
+			(at 154.94 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2702,19 +3036,116 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "R78")
+					(reference "R65")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "R72")
+					(reference "R47")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "R74")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "R76")
+					(reference "R59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:Q_PMOS_GSD")
+		(at 120.65 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d23383b3-dd79-4439-8a28-3b45a6da0e39")
+		(property "Reference" "Q2"
+			(at 127 93.9799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SQA405EJ-T1_GE3"
+			(at 127 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:Vishay_PowerPAK_SC70-6L_Single"
+			(at 125.73 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C5143597.pdf?lcsc_vid=Q1JZU11RFQVYBlNfQVcMVVJQQwRZAwYFT1cPUgUDFQIxVlNeQFFXX1BUQFFXUjsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+			(at 120.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "MOSFET P-CH 40V 10A SC-70-6L"
+			(at 120.65 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "1496e123-c323-4fcb-b6eb-0e4ba8e42108")
+		)
+		(pin "1"
+			(uuid "2debb9bd-7462-4561-a1b2-10631675572c")
+		)
+		(pin "3"
+			(uuid "224e00f1-a3e6-480d-9a44-19e7a35c7836")
+		)
+		(instances
+			(project "mixed_signal_sensor_board"
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
+					(reference "Q8")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
+					(reference "Q2")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
+					(reference "Q4")
+					(unit 1)
+				)
+				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
+					(reference "Q6")
 					(unit 1)
 				)
 			)
@@ -2722,7 +3153,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
-		(at 139.7 114.3 270)
+		(at 161.29 114.3 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2732,8 +3163,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2e1fb99-c7b0-4a85-b788-ab98001936a3")
-		(property "Reference" "D4"
-			(at 142.24 113.0299 90)
+		(property "Reference" "D3"
+			(at 163.83 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2744,7 +3175,7 @@
 			)
 		)
 		(property "Value" "3V"
-			(at 142.24 115.5699 90)
+			(at 163.83 115.5699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2755,7 +3186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 114.3 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2766,7 +3197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 114.3 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2777,7 +3208,7 @@
 			)
 		)
 		(property "Description" "Zener diode"
-			(at 139.7 114.3 0)
+			(at 161.29 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2796,19 +3227,19 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "D7")
+					(reference "D6")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -2816,7 +3247,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 118.11 0)
+		(at 123.19 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2826,8 +3257,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e54c45c3-8a47-48ae-8976-c51cbc7716b8")
-		(property "Reference" "#PWR0130"
-			(at 114.3 124.46 0)
+		(property "Reference" "#PWR072"
+			(at 123.19 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2838,7 +3269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 123.19 0)
+			(at 123.19 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2848,7 +3279,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 118.11 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2859,7 +3290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 118.11 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2870,7 +3301,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 118.11 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2886,19 +3317,19 @@
 		(instances
 			(project "mixed_signal_sensor_board"
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/4774a8d6-944e-4a86-81b4-a8db3fe171f5"
-					(reference "#PWR0133")
+					(reference "#PWR090")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/5edb0f01-38b3-4437-8c04-080f84fffaff"
-					(reference "#PWR0130")
+					(reference "#PWR072")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/c1d5fa9f-2091-4637-b914-ef00b6553b9c"
-					(reference "#PWR0131")
+					(reference "#PWR078")
 					(unit 1)
 				)
 				(path "/5c142d60-6b5a-463f-88b9-a177eae7f51b/d9a7688a-1f4c-4937-a470-cef945448846"
-					(reference "#PWR0132")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
